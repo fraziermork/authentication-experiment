@@ -1,0 +1,36 @@
+{
+  "name": "authentication-experiment",
+  "version": "1.0.0",
+  "description": "I built this project as a learning exercise to figure out a simple version of how to implement authentication and authorization.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraziermork/authentication-experiment.git"
+  },
+  "author": "Frazier Mork <fraziermork@gmail.com> (https://frazier-fibonacci.herokuapp.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fraziermork/authentication-experiment/issues"
+  },
+  "homepage": "https://github.com/fraziermork/authentication-experiment#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.8",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.4.5",
+    "superagent": "^1.8.2"
+  }
+}
